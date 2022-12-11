@@ -43,7 +43,7 @@ app.get('/shipping/:cep', (req, res, next) => {
 });
 
 /**
- * Retorna a lista de produtos da loja de acordo com o ID via InventoryService
+ * Retorna a lista de produtos da loja de acordo com o ID
  */
 app.get('/product/:id', (req, res, next) => {
     // Chama método do microsserviço.
